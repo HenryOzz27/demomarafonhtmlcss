@@ -1,3 +1,30 @@
-p {
-    background-color: blueviolet;
+:root {
+--color-primary: #21243d;
+--color-brand: #ff6464;
+--color-white: #fff;
+--color-background: #fff;
+--color-background-light: ##EDF7FA;
+ }
+ .section-light {
+   background-color:var(--color-background-light);
+ }
+
+ .link {
+   color:var(--color-primary);
+ }
+.action {
+   color:var(--color-white);
+   background-color: var(--color-brand);
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+.action:hover {
+   box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.2);
+}
+.action:active {
+   box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.3);
+}
+.post {
+   background-color:var(--color-background-light);
 }
