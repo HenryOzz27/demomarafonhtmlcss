@@ -103,28 +103,31 @@
    font-weight: 500;
    line-height: 1.5;
  }
- .dash{
+ .dash {
 font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 150%;
 color: #8695A4;
-flex: none;
-order: 1;
-flex-grow: 0;
  }
- .data{
-   display: flex;
+ .data {
+  display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: flex-end;
 padding: 4px 16px;
 gap: 10px;
-
-width: 73px;
-height: 32px;
-
 background: #2A326F;
 border-radius: 8px;
+width: 73px;
+height: 32px;
+ }
+ .years {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+color: #FFFFFF;
  }
